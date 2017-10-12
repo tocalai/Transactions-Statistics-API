@@ -5,7 +5,7 @@
 > - Description: Inovke while the transaction happened, stored the transaction to backend database and in chache as well
 > - Input: Reqest within the body, Object:Transaction(member with amount and timestamp)
 > - Returns: 
->> - case1, HttpStatus.CREATED(201) - assume that APIs return successfully
+>> - case1, HttpStatus.CREATED(201) - assume that APIs return successfully without any error
 >> - case2, HttpStatus.NO_CONTENT(204) - condition same as 201 but the transaction was 60 seconds older than previous'
 
 **[Get]/api/statistics**
