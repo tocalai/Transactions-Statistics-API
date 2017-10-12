@@ -25,4 +25,4 @@
 > - Get statistics should return statistics message(json format)
 > - Get statistics with no data in cache should return 404
 > - Get statistics with out of date data should return 404
-> - Get statistics that simulate multiple user perform post actions should return statistics message(json format)
+> - Get statistics that simulated multiple user perform post actions should return statistics message(json format)
